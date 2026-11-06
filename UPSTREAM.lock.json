@@ -1,0 +1,25 @@
+{
+  "lock_version": "1.0",
+  "generated_at": "2026-11-06T07:48:00Z",
+  "note": "Observational pin candidates from GitHub API. verification=NOT_RUN. tree_sha and content_manifest_sha256 not yet computed.",
+  "repositories": [
+    {
+      "name": "SWI-V1-Module-1-10",
+      "url": "https://github.com/Kelronmos/SWI-V1-Module-1-10",
+      "commit_sha": "c3b406c2c9a687f5d66da90e9d6da235e3f2211b",
+      "source_branch_at_acquisition": "main",
+      "tree_sha": null,
+      "content_manifest_sha256": null,
+      "verification": "NOT_RUN"
+    },
+    {
+      "name": "SWI-V2-Modules-11-22",
+      "url": "https://github.com/Kelronmos/SWI-V2-Modules-11-22",
+      "commit_sha": "62f061e1533342a5d5ee41236285d04ab46b53a4",
+      "source_branch_at_acquisition": "main",
+      "tree_sha": null,
+      "content_manifest_sha256": null,
+      "verification": "NOT_RUN"
+    }
+  ]
+}

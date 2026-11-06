@@ -1,0 +1,52 @@
+{
+  "schema": "SWI_REPOSITORY_DEPENDENCY_MATRIX_1.0",
+  "generated_at": "2026-11-06T07:48:00Z",
+  "target": "Kelronmos/SWI-V2.8",
+  "entries": [
+    {
+      "repository": "Kelronmos/SWI-V1-Module-1-10",
+      "remote_url": "https://github.com/Kelronmos/SWI-V1-Module-1-10",
+      "default_branch": "main",
+      "resolved_commit_sha": "c3b406c2c9a687f5d66da90e9d6da235e3f2211b",
+      "resolved_tag": null,
+      "integration_class": "REQUIRED_UPSTREAM",
+      "role": "Foundation evidence and Modules 00-10",
+      "upstream_dependencies": [],
+      "contract_version": null,
+      "tests_run": false,
+      "test_result": "NOT_RUN",
+      "independent_review": "NOT_PERFORMED",
+      "production_authorized": false
+    },
+    {
+      "repository": "Kelronmos/SWI-V2-Modules-11-22",
+      "remote_url": "https://github.com/Kelronmos/SWI-V2-Modules-11-22",
+      "default_branch": "main",
+      "resolved_commit_sha": "62f061e1533342a5d5ee41236285d04ab46b53a4",
+      "resolved_tag": null,
+      "integration_class": "REQUIRED_UPSTREAM",
+      "role": "Admission, seal, governing permit, Modules 11-22",
+      "upstream_dependencies": ["Kelronmos/SWI-V1-Module-1-10"],
+      "contract_version": null,
+      "tests_run": false,
+      "test_result": "NOT_RUN",
+      "independent_review": "NOT_PERFORMED",
+      "production_authorized": false
+    },
+    {
+      "repository": "Kelronmos/swi-firefly-memory",
+      "remote_url": "https://github.com/Kelronmos/swi-firefly-memory",
+      "default_branch": "main",
+      "resolved_commit_sha": "d551c90c612e27399025e059dd0ccdc6a2e5c52c",
+      "resolved_tag": null,
+      "integration_class": "SUSPENDED",
+      "role": "Historical memory research; no admission/seal/execute authority",
+      "upstream_dependencies": [],
+      "contract_version": null,
+      "tests_run": false,
+      "test_result": "NOT_RUN",
+      "independent_review": "NOT_PERFORMED",
+      "production_authorized": false
+    }
+  ]
+}
